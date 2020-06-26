@@ -1,0 +1,10 @@
+<div class="customer-info">
+   <h2>Hi {{customer.name}}!</h2>
+   <ul>
+      <li>{{customer.email}}</li>
+      {{#if customer.phone '!==' ""}}
+      <li>{{customer.phone}}</li>
+      {{/if}}
+      <li>You have {{customer.store_credit.formatted}} credit.</li>
+   </ul>
+</div>

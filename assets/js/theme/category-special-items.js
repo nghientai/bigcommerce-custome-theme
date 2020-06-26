@@ -9,7 +9,9 @@ export default function (context) {
    const modal = defaultModal();
 
    $('body').on('click', '.quickview', (event) => {
+      //console.log(event);
       event.preventDefault();
+      //console.log(event);
 
       const productId = $(event.currentTarget).data('productId');
 

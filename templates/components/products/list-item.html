@@ -4,6 +4,7 @@
     <article class="listItem">
 {{/if}}
     <figure class="listItem-figure">
+        
         {{> components/common/responsive-img
             image=image
             class="listItem-image"
@@ -32,7 +33,7 @@
                     <a href="{{url}}" {{#if settings.data_tag_enabled}} data-event-type="product-click" {{/if}}>{{name}}</a>
                 </h4>
                 {{#if summary}}
-                    <p>{{{summary}}}</p>
+                    <p>{{{summary}}} </p>
                 {{/if}}
             </div>
             <div class="listItem-actions">

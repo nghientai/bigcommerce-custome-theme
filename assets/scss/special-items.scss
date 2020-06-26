@@ -1,0 +1,46 @@
+.card-image-back {
+   display: none;
+   position: absolute;
+   top: 0;
+   left: 0;
+   transition: 0.5s ease;
+}
+.card-figure {
+   overflow: hidden;
+   &:hover {
+      .card-image-back {
+         display: inline;
+      }
+      .card-image {
+         display: none;
+      }
+   }
+}
+
+#remove-all-special {
+   display: none;
+}
+
+.special-buttons {
+   display: flex;
+   align-items: center;
+}
+
+.customer-info{
+    background-color: gold;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 100px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px #ddd;
+    h2,ul{
+        margin: 0;
+    }
+    ul{
+        list-style: none;
+    }
+}
