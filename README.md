@@ -15,3 +15,7 @@ Let's go over the tasks list:
 
 3. Display a banner that has customer information
 - Utilize Customer Stencil Object to display the information. 
+
+### For testing
+user: test@test.com
+pass: 123!@#L
